@@ -24,6 +24,6 @@ architectures using Amazon SageMaker, honing skills in machine
 learning model selection and tuning.
 
 ## Projects
-# Predicting stock performance with linear models using Python
-# Predicting Mortality by Heart Failure using Logistic Regression and Support Vector Classifier
-# Analyzing Labor Cost in Human Resources SQL Database
+### Predicting stock performance with linear models using Python
+### Predicting Mortality by Heart Failure using Logistic Regression and Support Vector Classifier
+### Analyzing Labor Cost in Human Resources SQL Database
