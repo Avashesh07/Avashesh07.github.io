@@ -441,11 +441,9 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .work__box {
-  display: flex;
-  align-items: flex-start; /* Align items to the start of the flex container */
-  margin-bottom: 3rem; /* Adjust space between project boxes */
+    display: flex;
+    align-items: center;
 }
-
 
 @media(max-width: 900px) {
     .work__box {
@@ -469,10 +467,8 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
-/* Work Text: Styling adjustment for content next to images */
 .work__text {
-  flex: 1; /* Allows the text to fill the space next to the image */
-  padding-right: 2rem; /* Adds some space between the text and the image */
+    flex: 0 0 30%;
 }
 
 .work__list {
@@ -492,18 +488,8 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(1.2);
 }
 
-/* Work Image: Standardize sizes and fit */
 .work__image-box {
-  flex: none; /* Prevent the image box from growing or shrinking */
-  width: 500px; /* Set a fixed width for the image box */
-  height: 500px; /* Set a fixed height for the image box */
-  overflow: hidden; /* Hide any overflow */
-}
-
-.work__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Cover the area without stretching */
+    margin-bottom: var(--gutter-normal);
 }
 
 @media(min-width: 901px) {
@@ -518,7 +504,6 @@ body:not(.user-is-tabbing) a:focus {
         height: 4rem;
     }
 }
-
 
 /* --------------------------------------- */
 /* ----- Clients ----- */
@@ -586,16 +571,6 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
 }
 
-
-/* Back to Main Page Link */
-.back-to-main {
-  display: block;
-  margin-bottom: 2rem; /* Space before the projects list */
-  text-align: center; /* Center the link */
-  text-decoration: none;
-  color: var(--pink); /* Use the pink color variable for the link */
-  font-size: var(--font-size-medium); /* Medium font size for visibility */
-}
 /* --------------------------------------- */
 /* ----- Footer ----- */
 /* --------------------------------------- */
